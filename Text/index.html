@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+	<title>GridLayout</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="conteiner">
+		<div class="page">
+			<div class="header">
+				<h2 class="header__header">Standart two-column layout</h2>
+			</div>
+			<div class="content">
+				<h2 class="content__header">Main content area</h2>
+				<p class="content__content">The main content area is where the magic happens. Right now, the main content is on the left and the sidebar is on the right. If you go into the markup for this document and add dir="rtl" to the html element, the two elements will swap spaces because CSS Grid honors text direction.</p>
+			</div>
+			<div class="sidebar">
+				<h3 class="sidebar__header">The Sidebar</h3>
+				<p class="sidebar__content">The sidebar typically contains things like: <br> <br></p>
+				<ul class="sidebar__content">
+					<li>Links</li>
+					<li>Menus</li>
+					<li>Ads</li>
+				</ul>
+
+			</div>
+			<div class="subcontent">
+				<p class="subcontent__content">This should take up half the space</p>
+				</div>
+			<div class="subsidebar">
+				<p class="subcontent__content">This should take up other half the space</p>
+			</div>
+
+			<div class="footer">
+				<p class="footer__content">Content, layout, designe: 
+					<a href="#" class="footer__link">
+						Morten Rand-Hendriksen.
+					</a>
+				</p>
+
+				</div>
+	</div>
+</body>
+</html>
